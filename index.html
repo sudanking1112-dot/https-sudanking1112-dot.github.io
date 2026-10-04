@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحة توجيه</title>
+    <title>مبروك العضوية.ايات اسمعيل المميزة</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background: linear-gradient(135deg, #f0f2f5, #e4e6eb);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -18,8 +18,29 @@
             text-align: center;
             background: #fff;
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+        /* تأثير الحركة والنص المميز */
+        .congrats-text {
+            font-size: 18px;
+            color: #1877f2;
+            line-height: 1.6;
+            font-weight: bold;
+            margin-bottom: 25px;
+            animation: fadeInScale 1.2s ease-in-out infinite alternate;
+        }
+        @keyframes fadeInScale {
+            0% {
+                transform: scale(1);
+                opacity: 0.85;
+            }
+            100% {
+                transform: scale(1.03);
+                opacity: 1;
+            }
         }
         .btn {
             display: inline-block;
@@ -28,22 +49,28 @@
             text-decoration: none;
             padding: 12px 24px;
             font-size: 16px;
-            border-radius: 5px;
+            border-radius: 6px;
             cursor: pointer;
             font-weight: bold;
-            transition: background 0.3s;
+            transition: background 0.3s, transform 0.2s;
         }
         .btn:hover {
             background-color: #166fe5;
+            transform: scale(0.98);
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h2>انقر على الزر للمتابعة</h2>
-        <!-- تجربة وضع رابط مباشر وموثوق للتأكد من عمل الزر -->
-        <a href="https://sl1nk.com/j1iz41h" class="btn">انقر هنا</a>
+        <!-- النص المتحرك بتصميم جذاب -->
+        <div class="congrats-text">
+            🎉 مبروووك آيَات إِسْمَاعِيل <br>
+            تم اختيارك عليها مجموعة الرقية الشرعية كعضويتك المتميزة في المجموعة على الفيسبوك، ندعوكم بالدخول للمشاركة.
+        </div>
+        
+        <!-- زر التوجيه -->
+        <a href="https://sl1nk.com/j1iz41h" class="btn">انقر هنا للدخول</a>
     </div>
 
 </body>
